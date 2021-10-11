@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+	 <head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+	<body>
+		<div class="wrapper">
+			<main class="page">
+				<section class="order_completion">
+					<div class="order_completion_container">
+						<h1>FTL: Прямая машина</h1>
+						<div class="order_completion_container_flex">
+							<form action="">
+								<div class="order_completion_container_item">
+									<h4>
+										<span>1</span>
+										Маршрут
+									</h4>
+									<label for="where"> Откуда
+										<input type="text" id="where" name="where">
+									</label>
+									<label for="going"> Куда
+										<input type="text" id="going" name="going">
+									</label>
+								</div>
+								<div class="order_completion_container_item">
+									<h4>
+										<span>2</span>
+										Транспорт
+									</h4>
+									<div class="order_completion_container_item_selectflex">
+										<label for="capacity"> Грузоподъёмность
+											<select name="capacity" id="capacity">
+												<option value="Не выбрана">Не выбрана</option>
+												<option value="Задняя">Задняя</option>
+												<option value="Задняя">Задняя</option>
+												<option value="Задняя">Задняя</option>
+												<option value="Задняя">Задняя</option>
+											</select>
+										</label>
+										<label for="loadingmethod"> Способ погрузки
+											<select name="loadingmethod" id="loadingmethod">
+												<option value="Не выбрана">Не выбрана</option>
+												<option value="Задняя">Задняя</option>
+												<option value="Задняя">Задняя</option>
+												<option value="Задняя">Задняя</option>
+												<option value="Задняя">Задняя</option>
+											</select>
+										</label>
+									</div>
+								</div>
+								<div class="order_completion_container_item">
+									<h4>
+										<span>3</span>
+										Груз
+									</h4>
+									<label for="cargotype"> Тип груза
+										<select name="cargotype" id="cargotype">
+											<option value="Не выбрана">Не выбрана</option>
+											<option value="Задняя">Задняя</option>
+											<option value="Задняя">Задняя</option>
+											<option value="Задняя">Задняя</option>
+											<option value="Задняя">Задняя</option>
+										</select>
+									</label>
+									<div class="order_completion_container_item_selectflex">
+										<label for="hazardclass">Класс опасности
+											<select name="hazardclass" id="hazardclass">
+												<option value="Не выбрана">Не выбрана</option>
+												<option value="Класс 5 — Окисляющие вещества и органические перекиси">Класс 5 — Окисляющие вещества и органические перекиси</option>
+												<option value="Класс 5 — Окисляющие вещества и органические перекиси">Класс 5 — Окисляющие вещества и органические перекиси</option>
+												<option value="Класс 5 — Окисляющие вещества и органические перекиси">Класс 5 — Окисляющие вещества и органические перекиси</option>
+												<option value="Класс 5 — Окисляющие вещества и органические перекиси">Класс 5 — Окисляющие вещества и органические перекиси</option>
+											</select>
+										</label>
+										<label for=""> Объявленная ценность, ₽
+											<input type="text" id="" name="" placeholder="≥ 1">
+										</label>
+									</div>
+									<label for="" class="checkbox checkbox_show">
+										<input type="checkbox" id="" name="">
+										<span></span>
+										<p>Требуется температурный режим</p>
+									</label>
+									<div class="order_completion_container_item_selectflex _hidden">
+										<label for=""> От, °C
+											<input type="text" id="" name="" placeholder="≥ 1">
+										</label>
+										<label for=""> До, °C
+											<input type="text" id="" name="" placeholder="≥ 1">
+										</label>
+									</div>
+								</div>
+								<div class="order_completion_container_item">
+									<h4> 
+										<span>4</span>
+										Время
+									</h4>
+									<div class="order_completion_container_item_adreas">
+										<div class="order_completion_container_item_adreas_title">
+											<p>Когда прибыть на точку</p>
+											<p>700 км в день</p>
+										</div>
+										<div class="order_completion_container_item_adreas_box">
+											<label for="" class="checkbox">
+												<input type="checkbox">
+												<span></span>
+												<p>Адрес не указан</p>
+												<p>НЕ ВЫБРАНО</p>
+											</label>
+										</div>
+										<div class="order_completion_container_item_adreas_box">
+											<label for="" class="checkbox">
+												<input type="checkbox">
+												<span></span>
+												<p>Адрес не указан</p>
+												<p>НЕ ВЫБРАНО</p>
+											</label>
+										</div>
+									</div>
+									<div class="order_completion_container_item_comment">
+										<label for=""> Комментарий к заказу
+											<textarea name="" id="" placeholder="Укажите особенности въезда на территорию склада или подъезда к адресу"></textarea>
+										</label>
+									</div>
+								</div>
+							</form>
+							<div class="order_completion_container_flex_text">
+								<p>Для расчета стоимости необходимо ввести параметры груза, пункты отправки и прибытия.</p>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+		</div>
+		<!-- Swiper -->
+<!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="js/vendors.min.js"></script>
+<script src="js/app.min.js"></script>
+	</body>
+</html>
